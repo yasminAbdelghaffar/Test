@@ -1,15 +1,16 @@
 version: 2
-deployment:
-  staging:
-    branch: master
-    codedeploy:
-      Test:
-        application_root: /
-        region: us-west-1
-        revision_location:
-          revision_type: S3
-          s3_location:
-            bucket: axlr8
-            key_pattern: Test-{BRANCH}-{SHORT_COMMIT}
-        deployment_group: Staging
-        deployment_config: CodeDeployDefault.OneAtATime
+jobs:
+  deployment:
+    staging:
+      branch: master
+      codedeploy:
+        Test:
+            application_root: /
+            region: us-west-1
+            revision_location:
+                revision_type: S3
+                s3_location:
+                bucket: axlr8
+                key_pattern: Test-{BRANCH}-{SHORT_COMMIT}
+            deployment_group: Staging
+            deployment_config: CodeDeployDefault.OneAtATime
