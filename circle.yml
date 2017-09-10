@@ -10,7 +10,6 @@ deployment:
           s3_location: 
             bucket: axlr8
             key_pattern: "Test-{BRANCH}-{SHORT_COMMIT}"
-        deployment_config: CodeDeployDefault.OneAtATime
         deployment_group: Staging
 test: 
   override: 
