@@ -1,17 +1,18 @@
-deployment:
-  staging:
+--- 
+deployment: 
+  staging: 
     branch: master
-    codedeploy:
-      Test:
+    codedeploy: 
+      Test: 
         application_root: /
-        region: us-west-2
-        revision_location:
-          revision_type: S3
-          s3_location:
-            bucket: axlr8
-            key_pattern: Test-{BRANCH}-{SHORT_COMMIT}
+        deployment_config: CodeDeployDefault.OneAtATime
         deployment_group: Staging
-		deployment_config: CodeDeployDefault.OneAtATime
-test:
-  override:
-    - echo "no tests"
+        region: us-west-2
+        revision_location: 
+          revision_type: S3
+          s3_location: 
+            bucket: axlr8
+            key_pattern: "Test-{BRANCH}-{SHORT_COMMIT}"
+test: 
+  override: 
+    - "echo \"no tests\""
