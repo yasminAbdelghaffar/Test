@@ -12,3 +12,6 @@ deployment:
             key_pattern: Test-{BRANCH}-{SHORT_COMMIT}
         deployment_group: Staging
 		deployment_config: CodeDeployDefault.OneAtATime
+test:
+  override:
+    - echo "no tests"

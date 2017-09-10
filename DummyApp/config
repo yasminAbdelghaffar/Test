@@ -1,9 +1,0 @@
-version: 2
-deployment:
-  staging:
-    branch: master
-    codedeploy:
-      Test:
-        region: us-west-2
-        deployment_group: Staging
-        deployment_config: CodeDeployDefault.OneAtATime
