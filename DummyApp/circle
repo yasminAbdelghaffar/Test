@@ -1,4 +1,3 @@
-version: 2
 machine:
   timezone:
     America/Los_Angeles
@@ -8,6 +7,7 @@ machine:
 test:
   post:
     - bundle exec rake custom:test:suite
+	
 deployment:
   staging:
     branch: master
