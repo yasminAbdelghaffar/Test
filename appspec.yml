@@ -4,5 +4,5 @@ files:
  - source: /Test
    destination: /var/Test/html/Test
  - source: /index.php
-   destination: /var/www/html/index.php
+   destination: /var/Test/html/index.php
 
