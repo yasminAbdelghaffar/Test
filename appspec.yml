@@ -2,7 +2,7 @@ version: 0.0
 os: windows
 files:
  - source: /
-   destination: /var/Test/html
+   destination: /
  - source: /index.php
-   destination: /var/Test/html/index.php
+   destination: /index.php
 
