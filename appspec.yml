@@ -3,6 +3,4 @@ os: windows
 files:
  - source: /index.php
    destination: /var/www/Test
- - source: /
-   destination: /ec2-35-166-111-72.us-west-2.compute.amazonaws.com//Test
 
