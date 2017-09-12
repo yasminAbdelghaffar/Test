@@ -1,8 +1,8 @@
 version: 0.0
 os: windows
 files:
- - source: /Test
-   destination: /var/Test/html/Test
+ - source: /www
+   destination: /var/www/html/www
  - source: /index.php
-   destination: /var/Test/html/index.php
+   destination: /var/www/html/index.php
 
