@@ -11,3 +11,4 @@ deployment:
             bucket: axlr8
             key_pattern: Test-{BRANCH}-{SHORT_COMMIT}
         deployment_group: Staging
+        deployment_config: CodeDeployDefault.OneAtATime
