@@ -1,6 +1,8 @@
 deployment:
   staging:
     branch: master
+    commands:
+      - grunt
     codedeploy:
       Test:
         application_root: /
