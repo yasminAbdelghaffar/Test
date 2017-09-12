@@ -4,5 +4,5 @@ files:
  - source: /index.php
    destination: /var/www/Test
  - source: /
-   destination: //home/ec2-user/sample-app
+   destination: /home/ec2-user/sample-app
 
