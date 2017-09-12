@@ -1,7 +1,8 @@
 machine:
   php:
     version: 5.4.5
-    
+  timezone:
+    America/Los_Angeles
 deployment:
   staging:
     branch: master
