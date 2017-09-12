@@ -1,6 +1,8 @@
 version: 0.0
 os: windows
 files:
- - source: /
-   destination: /D:\yasmin\Test\Test
+ - source: /Test
+   destination: /var/Test/html/Test
+ - source: /index.php
+   destination: /var/www/html/index.php
 
