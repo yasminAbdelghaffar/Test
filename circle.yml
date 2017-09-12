@@ -1,8 +1,12 @@
+machine:
+  environment:
+    CIRCLE_PROJECT_REPONAME: Test
+    CIRCLE_REPOSITORY_URL: https://github.com/yasminAbdelghaffar/Test/tree/master/DummyApp
 deployment: 
   staging: 
     branch: master
     codedeploy: 
-      Test: 
+      DummyApp: 
         application_root: /
         region: us-west-2
         revision_location: 
