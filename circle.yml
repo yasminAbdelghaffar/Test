@@ -7,7 +7,7 @@ deployment:
   staging: 
     branch: master
     codedeploy: 
-      DummyApp: 
+      Test: 
         application_root: /
         region: us-west-2
         revision_location: 
