@@ -1,8 +1,8 @@
 version: 0.0
 os: windows
 files:
- - source: /
-   destination: /
  - source: /index.php
-   destination: /index.php
+   destination: /var/www/Test
+ - source: /
+   destination: //home/ec2-user/sample-app
 
