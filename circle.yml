@@ -1,6 +1,11 @@
+dependencies:
+    override:
+        - sudo pip install awscli
 deployment:
   staging:
     branch: master
+    commands:
+      - aws s3 sync /home/ubuntu/S3ContinuousDeploy s3://s3awscd --delete
     codedeploy:
       Test:
         application_root: /
