@@ -2,7 +2,7 @@ deployment:
   staging:
     branch: master
     commands:
-      - aws s3 sync /home/ubuntu/Test s3://s3awscd --delete
+      - aws s3 sync D:\yasmin\Test s3://axlr8 --delete
     codedeploy:
       Test:
         application_root: /
