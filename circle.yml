@@ -9,6 +9,9 @@ dependencies:
     - sudo apt-get update
     - sudo apt-get install dotnet-hostfxr-1.0.2-beta-000581-00
     - sudo apt-get install dotnet-dev-1.0.0-preview2-003121
+  cache_directories:
+    - ~/.nuget
+
 
 test:
   pre:
