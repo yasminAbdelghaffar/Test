@@ -1,6 +1,6 @@
 dependencies:
     override:
-        - pip install awscli
+        - sudo pip install awscli
 deployment:
   staging:
     branch: master
