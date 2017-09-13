@@ -1,5 +1,6 @@
 dependencies:
     override:
+        - pip install python
         - pip install awscli
 deployment:
   staging:
